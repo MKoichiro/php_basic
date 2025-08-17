@@ -1,3 +1,7 @@
 php_basic_text_pdf/
 
 personal/
+
+io_test/*
+
+!*/.keep

@@ -63,11 +63,11 @@ $users = [
 foreach ($users as $idx => &$user) {
     // ① 30 未満なら role を追加
     if ($user['age'] < 30) {
-        $user['role'] = 'junior';
+      $user['role'] = 'junior';
     }
     // ② 35 以上なら削除
     if ($user['age'] >= 35) {
-        unset($users[$idx]);
+      unset($users[$idx]);
     }
 }
 unset($user);  // 最後の要素への参照をクリア
